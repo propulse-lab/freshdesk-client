@@ -1,10 +1,13 @@
 {
   "name": "freshdesk-client",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "node.js freshdesk api sdk client",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saostad/freshdesk-client.git"
+    "url": "https://github.com/propulse-lab/freshdesk-client.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "dist-cjs/index.js",
   "types": "dist-cjs/index.d.ts",
